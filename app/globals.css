@@ -1,6 +1,7 @@
 @tailwind base;@tailwind components;@tailwind utilities;
 *{box-sizing:border-box;margin:0;padding:0}
-html,body{background:#0C0C0C;color:#D7E2EA;font-family:var(--font-kanit),sans-serif}
+html{background:#0C0C0C}
+html,body{color:#D7E2EA;font-family:var(--font-kanit),sans-serif}
 main{overflow-x:clip}
 .hero-heading{background:linear-gradient(180deg,#646973 0%,#BBCCD7 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
 .cta{border-radius:9999px;background:linear-gradient(123deg,#18011F 7%,#B600A8 37%,#7621B0 72%,#BE4C00 100%);box-shadow:0 4px 4px rgba(181,1,167,.25),inset 4px 4px 12px #7721B1;outline:2px solid #fff;outline-offset:-3px;color:#fff;text-transform:uppercase;letter-spacing:.1em;font-weight:500;padding:.75rem 2rem;cursor:pointer}
@@ -55,3 +56,5 @@ html.has-cursor,html.has-cursor *{cursor:none!important}
 .light .cta{background:#0C0C0C!important;color:#fff!important}.light .cta:hover{background:#2a2a2a!important}
 .light .pill{border-color:rgba(12,12,12,.3)}.light .ok{color:#15803d;border-color:#15803d}
 .light .step{border-color:rgba(12,12,12,.12)}.light .card .ico{color:#fff}
+
+body{background:#0C0C0C}

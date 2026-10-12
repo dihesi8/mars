@@ -1,8 +1,10 @@
+import HeroVideo from "./HeroVideo";
 import { FadeIn } from "./Reveal";
 import { marsChain } from "@/lib/chain";
 export default function Hero() {
   return (
     <section id="top" className="relative flex min-h-[100svh] flex-col items-center justify-center overflow-hidden px-5 pb-16 pt-28 text-center">
+      <HeroVideo />
       <svg className="pointer-events-none absolute left-1/2 top-1/2 w-[min(120vw,900px)] -translate-x-1/2 -translate-y-1/2 opacity-40" viewBox="-200 -200 400 400" aria-hidden>
         <g className="spin" style={{ transformOrigin: "center" }}><circle r="190" fill="none" stroke="#D7E2EA" strokeOpacity=".35" strokeDasharray="2 8" /><circle cx="190" r="6" fill="#BE4C00" /><circle cx="-134" cy="134" r="4" fill="#B600A8" /></g>
         <g className="spin2" style={{ transformOrigin: "center" }}><circle r="140" fill="none" stroke="#D7E2EA" strokeOpacity=".35" /><circle cy="-140" r="5" fill="#D7E2EA" /><circle cx="99" cy="99" r="4" fill="#BE4C00" /></g>

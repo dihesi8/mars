@@ -2,7 +2,6 @@ import { Check } from "lucide-react";
 import Hero from "@/components/Hero";
 import Wallet from "@/components/Wallet";
 import Live from "@/components/Live";
-import VideoBg from "@/components/VideoBg";
 import Code from "@/components/Code";
 import Market from "@/components/Market";
 import { FadeIn } from "@/components/Reveal";
@@ -32,7 +31,6 @@ function NetworkGraph() {
 export default function Page() {
   return (
     <main>
-      <VideoBg />
       <nav className="fixed inset-x-0 top-0 z-50 flex items-center justify-between gap-4 bg-gradient-to-b from-black/60 to-transparent px-5 py-4 sm:px-8">
         <a href="#top" className="text-2xl font-black tracking-tight">MARS<span className="text-[#BE4C00]">.</span></a>
         <div className="hidden gap-8 font-medium uppercase tracking-wider md:flex">
@@ -109,9 +107,9 @@ export default function Page() {
       </div></section>
 
       <section className="sec"><div className="wrap">
-        <FadeIn className="rounded-[40px] border-2 border-[#D7E2EA] aurora p-8 text-center sm:rounded-[60px] sm:p-16">
-          <h2 className="h2 hero-heading !mb-8">Give agents a network to think on.</h2>
-          <div className="flex flex-wrap justify-center gap-4"><Wallet /><a className="ghost" href="#nodes">Browse nodes</a></div>
+        <FadeIn className="relative overflow-hidden rounded-[40px] border-2 border-[#D7E2EA] aurora p-8 text-center sm:rounded-[60px] sm:p-16">
+          <h2 className="relative h2 hero-heading !mb-8">Give agents a network to think on.</h2>
+          <div className="relative flex flex-wrap justify-center gap-4"><Wallet /><a className="ghost" href="#nodes">Browse nodes</a></div>
         </FadeIn>
       </div></section>
 
