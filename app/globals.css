@@ -28,7 +28,6 @@ main{overflow-x:clip}
 .spin{animation:spin 60s linear infinite}.spin2{animation:spin 90s linear infinite reverse}
 @media(prefers-reduced-motion:reduce){.spin,.spin2{animation:none}}
 table{width:100%;border-collapse:collapse}td,th{padding:.8rem 0;text-align:left;border-bottom:1px solid rgba(215,226,234,.12);font-weight:300}th{opacity:.6;font-weight:400}
-html.has-cursor,html.has-cursor *{cursor:none!important}
 .card{position:relative;overflow:hidden;transition:translate .35s cubic-bezier(.2,.8,.2,1),scale .35s,border-color .3s,box-shadow .35s}
 .card::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:0;transition:opacity .3s;background:radial-gradient(320px circle at var(--mx,50%) var(--my,50%),rgba(190,76,0,.28),transparent 60%)}
 .card:hover{translate:0 -8px;scale:1.02;border-color:#BE4C00;box-shadow:0 20px 60px rgba(190,76,0,.18)}
